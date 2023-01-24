@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:library_mdm/data/list_books.dart';
+import 'package:library_mdm/screens/home_screen/widget_home/card_books_home.dart';
 import 'package:library_mdm/screens/home_screen/widget_home/drawer_widget_home.dart';
 import 'package:library_mdm/screens/home_screen/widget_home/list_photo_card.dart';
 
@@ -76,6 +77,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
               ),
+              Row(
+                children: [CardBooksHome()],
+              )
             ],
           );
         },
